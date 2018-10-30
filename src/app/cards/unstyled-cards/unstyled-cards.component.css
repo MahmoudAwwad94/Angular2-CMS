@@ -1,0 +1,22 @@
+.cards{
+  width: 100%;
+padding: 10px;
+background-color: #2E3959;
+border-radius: 2px;
+margin: 10px;
+color: white;
+}
+
+.price-title{
+  font-weight: 600;
+}
+
+.profit-content{
+  font-size: 11px;
+
+}
+
+.monthly-content{
+  margin: 10px 0;
+  font-size: 10px;
+}

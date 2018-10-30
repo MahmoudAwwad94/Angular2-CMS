@@ -1,0 +1,81 @@
+<div class="header-container">
+  <div class="header-logo">
+    <a routerLink="/dashboard">
+      <img src="src/favicon.ico" />
+      <span class="header-title">CMS</span>
+    </a>
+  </div>
+  <ul class="nav-list">
+    <li class="list-item">
+      <span class="icon-padding">
+        <fa-icon [icon]="['fas', 'grip-horizontal']"></fa-icon>
+      </span>
+      <a routerLink="/dashboard">Dashboard</a>
+    </li>
+
+    <li class="list-item">
+      <span class="icon-padding">
+        <fa-icon [icon]="['fas', 'user-tie']"></fa-icon>
+      </span>
+      <a routerLink="agent/manage">Agent</a>
+      <button type="button" (click)="agentIsCollapsed = !agentIsCollapsed" [attr.aria-expanded]="!agentIsCollapsed" aria-controls="collapseExample" class="button-margin pointer button-icon no-outline">
+        <fa-icon [icon]="['fas', 'caret-down']"></fa-icon>
+      </button>
+
+      <ul id="collapseExample" [ngbCollapse]="!agentIsCollapsed" class="nav-list">
+        <li><a routerLink="agent/create">create</a></li>
+        <li> <a routerLink="agent/update/2">update</a></li>
+      </ul>
+    </li>
+    <li class="list-item">
+      <span class="icon-padding">
+        <fa-icon [icon]="['fas', 'box']"></fa-icon>
+      </span>
+      <a routerLink="product/manage">Product</a>
+      <button type="button" (click)="productIsCollapsed = !productIsCollapsed" [attr.aria-expanded]="!productIsCollapsed" aria-controls="collapseExample" class="button-margin pointer button-icon no-outline">
+        <fa-icon [icon]="['fas', 'caret-down']"></fa-icon>
+      </button>
+
+      <ul id="collapseExample" [ngbCollapse]="!productIsCollapsed" class="nav-list">
+        <li><a routerLink="product/create">create</a></li>
+        <li><a routerLink="product/update/2">update</a></li>
+      </ul>
+    </li>
+    <li class="list-item">
+      <span class="icon-padding">
+        <fa-icon [icon]="['fas', 'user-alt']"></fa-icon>
+      </span>
+      <a routerLink="user/manage">user</a>
+      <button type="button" (click)="userIsCollapsed = !userIsCollapsed" [attr.aria-expanded]="!userIsCollapsed" aria-controls="collapseExample" class="button-margin pointer button-icon no-outline">
+        <fa-icon [icon]="['fas', 'caret-down']"></fa-icon>
+      </button>
+
+      <ul id="collapseExample" [ngbCollapse]="!userIsCollapsed" class="nav-list">
+        <li><a routerLink="user/create">create</a></li>
+        <li><a routerLink="user/update/2">update</a></li>
+      </ul>
+    </li>
+    <li class="list-item">
+      <span class="icon-padding">
+        <fa-icon [icon]="['fas', 'building']"></fa-icon>
+      </span>
+      <a routerLink="moving-company/manage">moving Company</a>
+      <button type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="collapseExample" class="button-margin pointer button-icon no-outline">
+        <fa-icon [icon]="['fas', 'caret-down']"></fa-icon>
+      </button>
+
+      <ul id="collapseExample" [ngbCollapse]="!isCollapsed" class="nav-list">
+        <li><a routerLink="moving-company/create">create</a></li>
+        <li><a routerLink="moving-company/update/2">update</a></li>
+      </ul>
+    </li>
+
+    <li class="list-item">
+      <span class="icon-padding">
+        <fa-icon [icon]="['fas', 'sign-out-alt']"></fa-icon>
+      </span>
+      <button type="button" class="btn signout-btn">Signout</button>
+    </li>
+
+  </ul>
+</div>

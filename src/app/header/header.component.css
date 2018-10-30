@@ -1,0 +1,53 @@
+.header-container {
+  background-color: rgb(40, 42, 53);
+  /* background-color: #D8864C; */
+  height: -webkit-fill-available;
+  color: white;
+  /* border-radius: 5px; */
+}
+
+.header-logo {
+  margin-bottom: 15px;
+  background-color: rgb(33, 35, 45);
+}
+
+.header-logo img {
+  margin: 10px 17px;
+}
+
+.header-title {
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.icon-padding {
+  padding-right: 10px;
+}
+
+.list-item {
+  margin-bottom: 15px;
+}
+
+.button-margin {
+  margin: 15px;
+}
+
+.button-icon {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.no-outline {
+  outline: none;
+}
+
+.signout-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #007bff;
+}

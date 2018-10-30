@@ -1,0 +1,25 @@
+.signin-panel {
+  display: block;
+  margin: 150px auto;
+  text-align: center;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: #282a35;
+}
+
+.cancel-button {
+  margin-left: 50px;
+}
+
+.login-button {
+  margin-left: 50px;
+}
+
+label {
+  margin-right: 15px;
+}
+
+/* .icon {
+  background: url(src/favicon.ico) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+} */

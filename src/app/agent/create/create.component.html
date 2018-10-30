@@ -1,0 +1,91 @@
+<div class="card page-margin">
+  <div class="card-header">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <h5>Add new Agent</h5>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <a class="btn create-button right-side">
+          <div>
+            <i class="button-section"></i>
+            <fa-icon [icon]="['fas', 'reply']"></fa-icon>
+            <span class="btn-content-padding">
+              All Agents
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-body">
+    <form name="form">
+      <div class="row form-group">
+        <div class="col-md-6">
+          <img src="src/favicon.ico" alt="agent" />
+          <button type="button" class="btn dark-button">Upload</button>
+        </div>
+        <div class="col-md-6">
+          <div class="row ">
+            <div class="col-md-6">
+              <label>Role:</label>
+              <select>
+                <option selected>Select a Role</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label>Status:</label>
+              <select>
+                <option selected>Select a Status</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row form-group">
+        <div class="col-md-6">
+          <label>First Name:</label>
+          <input type="text" placeholder="First Name" />
+        </div>
+        <div class="col-md-6">
+          <label>Last Name:</label>
+          <input type="text" placeholder="Last Name" />
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-md-6">
+          <label>Email:</label>
+          <input type="text" placeholder="example@test.com" />
+        </div>
+        <div class="col-md-6">
+          <label>Phone Number:</label>
+          <input type="number" placeholder="Phone Number:" />
+        </div>
+      </div>
+
+      <div class="row form-group">
+        <div class="col-md-6">
+          <label>Password:</label>
+          <input type="password" placeholder="Enter password" />
+        </div>
+        <div class="col-md-6">
+          <label>Confirm Password:</label>
+          <input type="password" placeholder="Confirm password:" />
+        </div>
+      </div>
+
+      <button type="button" class="btn create-button">Create Agent</button>
+    </form>
+
+  </div>
+  <div class="card-footer">
+    <fa-icon [icon]="['fas', 'copyright']"></fa-icon><span>2018 copyright</span>
+  </div>
+</div>

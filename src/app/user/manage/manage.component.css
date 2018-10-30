@@ -1,0 +1,38 @@
+.button-section {
+  border-right: 1px solid #6e7fa9;
+  padding-right: 7px;
+  padding-left: 20px;
+  position: absolute;
+  margin-top: -8px;
+  height: 40px;
+}
+
+.btn-content-padding {
+  padding-left: 15px;
+}
+
+.right-side {
+  float: right;
+}
+
+.create-button {
+  margin: 20px auto;
+  display: block;
+  color: #6e7faa;
+  background-color: rgba(40, 42, 53);
+  border-radius: 8px;
+  padding: 7px 10px;
+}
+
+.dark-button {
+  margin-left: 15px;
+  color: #6e7faa;
+  background-color: rgba(40, 42, 53);
+  border-radius: 8px;
+  padding: 7px 10px;
+  border-color: rgba(40, 42, 53);
+}
+
+.action-button {
+  margin-right: 10px;
+}

@@ -1,0 +1,31 @@
+.map-cards {
+  width: 100%;
+  padding: 10px;
+  background-color: #2E3959;
+  border-radius: 2px;
+  margin: 10px;
+  color: white;
+}
+
+.card-button {
+  margin: 0 10px;
+  background-color: transparent;
+  border-radius: 13px;
+  width: 25%;
+}
+
+.export-button {
+  color: #607BD5;
+  border-color: #607BD5;
+}
+
+.print-button {
+  color: #2FA8B6;
+  border-color: #2FA8B6;
+}
+
+.button-icon {
+  background: transparent;
+  border: none;
+  color: #607BD5;
+}

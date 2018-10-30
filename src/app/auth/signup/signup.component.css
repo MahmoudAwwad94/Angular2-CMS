@@ -1,0 +1,29 @@
+.signup-panel {
+  display: block;
+  margin: 100px auto;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: #282a35;
+}
+
+.cancel-button {
+  margin-left: 10px;
+}
+
+.login-button {
+  margin-left: 10px;
+}
+
+label {
+  display: block;
+}
+
+.center-container {
+  display: block;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 100%;
+}

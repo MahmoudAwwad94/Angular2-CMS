@@ -1,0 +1,84 @@
+<div class=" page-margin">
+  <div class="">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <h5>Users</h5>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <a class="btn create-button right-side">
+          <div>
+            <i class="button-section"></i>
+            <fa-icon [icon]="['fas', 'reply']"></fa-icon>
+            <span class="btn-content-padding">
+              All Users
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <table class="table table-striped table-hover ">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Last Login</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div>Mahmoud</div>
+        </td>
+        <td>
+          <div>Mahmoud@gmail.com</div>
+        </td>
+        <td>
+          <div>0781234567</div>
+        </td>
+        <td>
+          <div>today</div>
+        </td>
+        <td>
+          <button class="btn btn-sm btn-info" title="Manage agent">
+            <fa-icon [icon]="['fas', 'pencil-alt']"></fa-icon>
+          </button>
+          <a ng-click="delete(agent.id)">
+            <button class='btn btn-default btn-sm btn-icon btn-danger' title="Delete agent">
+              <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+            </button>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div>Mahmoud</div>
+        </td>
+        <td>
+          <div>Mahmoud@gmail.com</div>
+        </td>
+        <td>
+          <div>0781234567</div>
+        </td>
+        <td>
+          <div>today</div>
+        </td>
+        <td>
+          <button class="btn btn-sm btn-info action-button" title="Manage agent">
+            <fa-icon [icon]="['fas', 'pencil-alt']"></fa-icon>
+          </button>
+          <a ng-click="delete(agent.id)">
+            <button class='btn btn-default btn-sm btn-icon btn-danger ' title="Delete agent">
+              <fa-icon [icon]="['fas', 'trash']"></fa-icon>
+            </button>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+
+  </table>
+
+</div>
